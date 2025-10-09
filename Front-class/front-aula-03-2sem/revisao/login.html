@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página de login segura para acesso ao sistema. Faça login com seu email e senha para acessar sua conta."
+    />
+    <meta
+      name="keywords"
+      content="login, acesso, email, senha, entrar, conta"
+    />
+    <meta name="author" content="Sistema de Login" />
+    <meta name="robots" content="noindex, nofollow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Login - Acesso ao Sistema" />
+    <meta
+      property="og:description"
+      content="Página de login segura para acesso ao sistema"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Login - Acesso ao Sistema" />
+    <meta
+      property="twitter:description"
+      content="Página de login segura para acesso ao sistema"
+    />
+
+    <title>Login - Acesso ao Sistema</title>
+
+    <!-- Font Awesome para ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="./js/login.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Skip link para acessibilidade -->
+    <a href="#main-content" class="skip-link"
+      >Pular para o conteúdo principal</a
+    >
+
+    <!-- Header -->
+    <header class="header" role="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>
+              <i class="fas fa-shield-alt logo" aria-hidden="true"></i>
+              Sistema Seguro
+            </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main id="main-content" class="main-content" role="main">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="login-card">
+              <div class="login-header">
+                <h2>Bem-vindo de volta!</h2>
+                <p>Faça login para acessar sua conta</p>
+              </div>
+
+              <div class="login-body">
+<form id="loginForm" novalidate role="form" aria-labelledby="login-title" 
+action="#" method="">
+                  <!-- Campo Email -->
+                  <div class="form-group">
+                    <label for="email" class="form-label">
+                      E-mail
+                      <span aria-label="campo obrigatório">*</span>
+                    </label>
+                    <div class="input-group">
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        class="form-control"
+                        placeholder="Digite seu e-mail"
+                        required
+                        autocomplete="email"
+                        aria-describedby="email-help"
+                        aria-invalid="false"
+                      />
+                      <i
+                        class="fas fa-envelope input-icon"
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                    <div id="email-help" class="sr-only">
+                      Digite um endereço de e-mail válido
+                    </div>
+                  </div>
+
+                  <!-- Campo Senha -->
+                  <div class="form-group">
+                    <label for="password" class="form-label">
+                      Senha
+                      <span aria-label="campo obrigatório">*</span>
+                    </label>
+                    <div class="input-group">
+                      <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        class="form-control"
+                        placeholder="Digite sua senha"
+                        required
+                        autocomplete="current-password"
+                        aria-describedby="password-help"
+                        minlength="6"
+                        aria-invalid="false"
+                      />
+                      <i class="fas fa-lock input-icon" aria-hidden="true"></i>
+                    </div>
+                    <div id="password-help" class="sr-only">
+                      A senha deve ter no mínimo 6 caracteres
+                    </div>
+                  </div>
+
+                  <!-- Checkbox Lembrar -->
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      id="remember"
+                      name="remember"
+                      class="form-check-input"
+                      aria-describedby="remember-help"
+                    />
+                    <label for="remember" class="form-check-label">
+                      Lembrar-me neste dispositivo
+                    </label>
+                    <div id="remember-help" class="sr-only">
+                      Manter login ativo neste dispositivo
+                    </div>
+                  </div>
+
+                  <!-- Botão de Submit -->
+                  <button
+                    type="submit"
+                    class="btn"
+                    aria-describedby="submit-help"
+                    id="btnSubmit"
+                  >
+                    <i class="fas fa-sign-in-alt" aria-hidden="true"></i>
+                    Entrar
+                  </button>
+                  <div id="submit-help" class="sr-only">
+                    Clique para fazer login no sistema
+                  </div>
+                </form>
+
+                <!-- Links auxiliares -->
+                <div class="login-footer">
+                  <a
+                    href="#"
+                    role="link"
+                    aria-label="Esqueci minha senha - abrir página de recuperação"
+                  >
+                    Esqueci minha senha
+                  </a>
+                  <br /><br />
+                  <a
+                    href="#"
+                    role="link"
+                    aria-label="Criar nova conta - abrir página de cadastro"
+                  >
+                    Não tem uma conta? Cadastre-se
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>&copy; 2025 Sistema Seguro. Todos os direitos reservados.</p>
+            <nav
+              class="footer-links"
+              role="navigation"
+              aria-label="Links do rodapé"
+            >
+              <a href="#" aria-label="Política de Privacidade">Privacidade</a>
+              <a href="#" aria-label="Termos de Uso">Termos</a>
+              <a href="#" aria-label="Contato">Contato</a>
+              <a href="#" aria-label="Suporte">Suporte</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

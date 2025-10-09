@@ -1,0 +1,161 @@
+*,a,ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+ 
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #6466f07c;
+    background: linear-gradient(to right, #2124e695, #6466f07c );
+}
+ 
+header{
+    margin: 5% 0;
+    width: 100%;
+    display: flex; /*Coloca as informações lado a lado*/
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+ 
+header nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+ 
+header nav ul li a{ /*Personalizando cada botão!*/
+    display: flex;
+    background: #2124e6;
+    flex-direction: row;
+    justify-content: center;
+   
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 1.5rem;
+ 
+    width: 200px;
+    height:50px;
+}
+ 
+main{
+    width: 90vw;
+    margin: 1% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+ 
+#sobre{
+    background-color: #6466f07c;
+    background: linear-gradient(to right, #2124e695, #6466f07c );
+    padding: 10px;
+    border-radius: 10px;
+}
+ 
+#sobre h2{
+    text-align: center;
+    margin: 2% 0%;
+}
+#sobre img{
+    max-width: 25vw;
+    float: right;
+    display: block;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+ 
+#sobre p{
+    text-align: justify;
+    margin-bottom: 3%;
+}
+
+#sobre a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+
+    background-color: #2124e6;
+    color: antiquewhite;
+    font-weight: 700;
+
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#como-chegar{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    margin: 5% 0;
+    padding: 10px;
+    border-radius: 10px;
+    
+
+    background-color: #2124e6;
+    background: linear-gradient(to right, #2124e695, #6466f07c );
+    /* background: radial-gradient(circle,  #2124e695, #6466f07c ); */
+    /*
+        to right: da esquerda para a direita (padrão visual moderno)
+        to left: da direita para a esquerda
+        to top: de baixo para cima
+        to bottom: de cima para baixo
+        to top right: de baixo para cima na diagonal
+        to bottom left: de cima para baixo e para a esquerda
+    
+    */
+}    
+
+#como-chegar iframe{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#como-chegar h2{
+    text-align: center;
+    margin: 2% 0%;
+}
+ 
+#como-chegar p{
+    text-align: justify;
+    margin-bottom: 3%;
+}
+
+@media(min-width: 768px){
+    header nav ul{
+        flex-direction: row;
+    }
+    header nav ul li a{ /*Personalizando cada botão!*/
+        flex-direction: row;
+        font-size: 2rem;
+        width: 170px;
+        height:50px;
+    }
+}
+
+@media(min-width: 1024px){
+    header nav ul{
+        flex-direction: row;
+    }
+    header nav ul li a{ /*Personalizando cada botão!*/
+        flex-direction: row;
+        font-size: 2.5rem;
+        width: 230px;
+        height:70px;
+    }
+}

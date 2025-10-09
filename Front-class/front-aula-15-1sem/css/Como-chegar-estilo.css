@@ -1,0 +1,19 @@
+#como-chegar{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+
+    background-color: #2124e6;
+    background: radial-gradient(circle at 50% 50% , #b9bece,#04c2e4 , #f5f2f4);
+    border-radius: 5px;
+
+    margin: 5% 0;
+    padding: 10px;
+}
+
+#como-chegar iframe{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+} 

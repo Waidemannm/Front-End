@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+:root{
+    scroll-behavior:smooth;
+}
+
+
+@layer components {
+  .imgCard{
+    @apply w-[19vw] h-[20vh];
+  }
+
+  .pageCards{
+    @apply flex h-screen justify-center flex-wrap overflow-auto gap-12;
+    & a{
+        @apply m-2 justify-center items-center flex flex-col; 
+    }
+  }
+
+  .card {
+    @apply flex flex-col h-[55vh] border-2 m-10 w-[18vw] p-8 text-center gap-8;
+  }
+}
+
+
+@layer createForm{
+    .pageForm{
+        @apply flex justify-center ;
+    }
+    .btnProduto{
+    @apply text-black text-center text-2xl font-bold flex flex-row justify-center items-center;
+  }
+  .form{
+    @apply flex flex-col justify-center items-center text-center h-[48vh] border-2 m-5 w-[30vw] p-10 text-center gap-7; 
+    & div{
+        @apply flex flex-col m-2 gap-2;
+    }
+  }
+}
+
+@layer datails{
+    .pageDetails{
+        @apply flex justify-center;
+    }
+    .imgDetails{
+        @apply  w-[13vw] h-[19vh];
+
+        & a{
+            @apply flex flex-col justify-center items-center;
+        }
+    }   
+    .details{
+        @apply flex flex-col text-2xl justify-center items-center  h-[45vh] border-2 m-10 w-[19vw] p-10 text-center;
+        & p{
+            @apply m-2 text-gray-600 text-center text-2xl;
+        }
+    }
+}
+
+@layer base{
+    .container{
+        @apply flex flex-col h-screen justify-between text-center;
+        & p{
+            @apply m-10 text-gray-600 text-center text-2xl;
+        }
+
+        & header{
+            @apply bg-gray-50  w-screen h-[20vh] text-center text-4xl font-bold p-5;
+            & h1{
+                @apply text-black text-center text-3xl font-bold p-5;
+            }
+        } 
+        & .text{
+            @apply text-red-800 text-center text-3xl font-bold p-5;
+        }
+        & .textRodape {
+            @apply text-gray-600 text-center text-2xl;
+        }
+
+        & main{
+            @apply w-screen h-[60vh] overflow-auto;
+        }
+
+        & footer{
+            @apply bg-gray-50 text-white w-screen h-[20vh];
+        }
+    }
+}

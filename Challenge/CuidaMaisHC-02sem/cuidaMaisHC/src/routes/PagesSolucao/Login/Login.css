@@ -1,0 +1,5 @@
+@layer routes{
+   .pageLogin{
+    @apply flex flex-col items-center text-[var(--color-font-black)] font-bold text-[1.2rem] my-10 my-10 lg:mt-50 xl:mt-50 2xl:mt-60;
+   } 
+}

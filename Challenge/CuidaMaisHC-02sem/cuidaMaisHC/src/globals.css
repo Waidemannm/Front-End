@@ -1,0 +1,72 @@
+@import "tailwindcss";
+@import "./components/Cabecalho/Cabecalho.css";
+@import "./components/Rodape/Rodape.css";
+@import "./components/Menu/Menu.css";
+@import "./components/FormAgendamento/FormAgendamento.css";
+@import "./routes/PagesSolucao/Agendamento/Agendamento.css";
+@import "./routes/PagesSolucao/LoginOrCreateAccount/LoginOrCreateAccount.css";
+@import "./components/FormLoginOrCreateAccont/FormLoginOrCreateAccount.css";
+@import "./components/FormCadastro/FormCadastro.css";
+@import "./components/FormLogin/FormLogin.css";
+@import "./routes/PagesSolucao/Login/Login.css";
+@import "./routes/PagesSolucao/Cadastro/Cadastro.css";
+@import "./routes/PagesObrigatorias/Contato/Contato.css";
+@import "./routes/PagesSolucao/Guia/Guia.css";
+@import "./routes/PagesObrigatorias/Integrantes/Integrantes.css";
+@import "./components/CardIntegrante/CardIntegrante.css";
+@import "./routes/PagesObrigatorias/IntegranteDetails/IntegranteDetails.css";
+@import "./routes/PagesObrigatorias/FAQ/FAQ.css";
+@import "./routes/PagesObrigatorias/Error/Error.css";
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "./routes/PagesObrigatorias/Home/home.css";
+
+
+:root { 
+  scroll-behavior: smooth;
+  --font-base: "Roboto", sans-serif;
+  --color-font-black: #1e1e1e;
+  --bg-rodape:rgb(218, 237, 237);
+  --color-font-rodape:#72afcc;
+  --btn-color-menu:#0776A8;
+  --btn-color-menu-atual:#022c2f;
+  --btn-size-X-menu: 55vw; /*largura*/
+  --btn-size-Y-menu:6vh; /*altura*/
+  --img-logo: 25vw;
+  --size-title: 1.2rem;
+  --form-size-X-agdnt: 72vw;
+  --form-size-Y-agdnt: 145vh;
+  --form-size-X-login-create: 72vw;
+  --form-size-Y-login-create: 35vh;
+  --form-size-X-login: 72vw;
+  --form-size-Y-login: 47vh;
+  --form-size-X-create: 72vw;
+  --form-size-Y-create: 90vh;
+  --img-contato: 75vw;
+  --size-guia-X: 72vw;
+  --size-guia-Y:85vh;
+  --size-guia-X-bot: 72vw;
+  --size-guia-Y-bot: 60vh;
+  --btn-color-guia:#EAA557;
+  --btn-size-X-guia: 40vw; 
+  --btn-size-Y-guia: 8vh;
+  --img-guia: 20vw;
+  --img-integrantes: 20vw;
+  --size-X-card-intg: 40vw; 
+  --size-Y-card-intg: 30vh;
+  --btn-color-card-intg:#bbe0f1;
+  --size-X-detail-intg: 65vw; 
+  --size-Y-detail-intg: 60vh;
+  --btn-size-X-detail: 10vw; 
+  --btn-size-Y-detail:5vh;
+  --color-faq: #bbe0f1;
+}
+
+@layer base {
+  .container {
+    @apply flex flex-col h-screen justify-between;
+    font-family: var(--font-base);
+  }
+  main {
+    @apply w-screen; 
+  }
+} 

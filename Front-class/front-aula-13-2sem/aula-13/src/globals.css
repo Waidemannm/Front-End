@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root{
+    scroll-behavior:smooth;
+}
+
+@layer{
+
+    .container{
+        @apply flex flex-col w-screen h-screen justify-between;
+
+        & header{
+            @apply bg-blue-500 text-white w-screen h-[20vh];
+        }
+
+        & main{
+            @apply w-screen h-[60vh] overflow-auto;
+            
+            & table{
+                @apply border-2 p-[10px] m-auto;
+
+                & th,td{
+                    @apply border-2 text-center p-[10px];
+                }
+            }
+        }
+
+        & footer{
+            @apply bg-blue-500 text-white w-screen h-[20vh];
+        }
+    }
+
+    .classePrincipal{
+
+        @apply md:bg-amber-400 sm:bg-amber-900;
+
+    }
+
+    .frmEditar{
+        @apply flex flex-col w-[300px] m-auto p-[10px] border-2 bg-white rounded-[5px] shadow-lg;
+
+        & label{
+            @apply font-bold block mb-[5px];
+        }
+
+        & input{
+            @apply border-2 mb-[10px] px-2 rounded-[5px];
+        }
+
+        & button{
+            @apply bg-blue-500 text-white font-bold p-[10px] rounded hover:bg-blue-700;
+        }
+    }
+
+}

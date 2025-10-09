@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css-solução/style.css">
+    <title>Agendar</title>
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "88cda2b1-683e-4a9c-af71-3732ac108246", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "efffbd5a-e1b1-46ab-b96d-0b6b6623cf27", // The ID of your service instance.
+            onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+            const t=document.createElement('script');
+            t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="../pages-solucao/principal.html"><img id="logoHC" src="../assets/img/solucao/principal/logohc.png" alt="Imagem do logo do Hospital das Clínicas"></a>
+        </div>
+         <div>
+            <nav role="Juntar links de navegação">
+                <ul aria-label="Links de acesso para barra de tarefas, notificações e pesquisa">
+                    <a href="#" rel="noopner" target="_blank"><i class="fa fa-search"></i></a>
+                    <a href="#" rel="noopner" target="_blank"><i class="fa fa-bell"></i></a>
+                    <a href="../pages-solucao/principal.html" rel="noopner" target="_blank"><i class="fa fa-bars"></i></a>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <div id="agendamento">
+            <div id="topo">
+                <form method="get" id="frmAgendamento">
+                    <h1>Agende sua consulta</h1>
+                    <fieldset>
+                        <div id="nome">
+                            <label for="idNome">Nome:</label>
+                            <input type="text" name="nome" id="idNome" placeholder=" Digite nome e sobrenome" maxlength="100">
+                        </div>
+                        <div id="telefone">
+                            <label for="idTelefone">Telefone:</label>
+                            <input type="tel" name="tel" id="idTelefone" placeholder=" Ex: 11999999999" maxlength="15">
+                        </div>
+
+                        <div id="data">
+                            <div id="data">
+                                <label for="idDia">Data da consulta:</label>
+                                <input type="" name="dia" id="idDIa" placeholder="  Dia" maxlength="2">
+                            </div> 
+                            <div id="data">
+                                <input type="" name="mes" id="idMes" placeholder="  Mês" maxlength="2">
+                            </div> 
+                            <div id="data">
+                                <input type="" name="ano" id="idAno" placeholder="  Ano" minlength="4" maxlength="4">
+                            </div>
+                        </div>
+
+                        <div id="hora">
+                            <label for="idHorario">Horário desejado:</label>
+                            <input type="text" name="horario" id="idHorario" maxlength="100">
+                        </div>
+                        <div id="especialidade">
+                            <label for="idEspecialidade">Especialidades desejada:</label>
+                            <input type="text" name="especialidade" id="idEspecialidade" maxlength="100">
+                        </div>
+                        <div id="observacao">
+                            <label for="idObservacao">Observações:</label>
+                            <input type="text" name="observacao" id="idObservacao" maxlength="400">
+                        </div>
+                        <div>
+                            <button type="submit" id="btnEnviar">Enviar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+       
+    </main>
+    <footer>
+        <div>
+            <i class="fa-solid fa-chevron-up"></i>
+            <a href="#topo">Voltar ao topo da página</a></div>
+        <div id="rodape">        
+            <p>Assistente Virtual - HC</p>
+            <p>&copy; 2025 1TDSPH - Todos os direitos reservados </p>
+        </div>
+    </footer>
+</body>
+</html>

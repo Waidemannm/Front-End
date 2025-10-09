@@ -1,0 +1,27 @@
+@layer routes{
+    .pageGuia{
+        @apply flex items-center flex-col gap-15 my-10 text-center text-[var(--color-font-black)] lg:mt-50 lg:flex-row lg:justify-center xl:mt-50 2xl:mt-60;
+        & .bot{
+            @apply m-3 shadow-2xl flex flex-col items-center rounded-2xl w-[var(--size-guia-X-bot)] h-[var(--size-guia-Y-bot)] gap-10 p-12 lg:w-[30vw] lg:h-[75vh] lg:p-8;
+            & img{
+                @apply w-[var(--img-guia)] lg:w-[10vw];
+            }
+            & h1{
+                @apply font-bold text-[1.2rem];
+            }
+        }
+        & .guia{
+                @apply m-3 shadow-2xl flex flex-col items-center rounded-2xl w-[var(--size-guia-X)] h-[var(--size-guia-Y)] gap-10 p-12 lg:w-[30vw] lg:h-[75vh] lg:p-8;
+
+                & img{
+                @apply w-[var(--img-guia)] lg:w-[10vw];
+            }
+            & h1{
+                @apply font-bold text-[1.2rem];
+            }
+        }
+        .btnGuia{
+            @apply flex items-center justify-center bg-[var(--btn-color-guia)] w-[var(--btn-size-X-guia)] h-[var(--btn-size-Y-guia)] text-[1.2rem] text-center text-white font-bold rounded-2xl shadow-2xl border-b-2 lg:w-[13vw] lg:h-[10vh] lg:text-[0.9rem] xl:h-[5vh];
+        }
+    }
+} 

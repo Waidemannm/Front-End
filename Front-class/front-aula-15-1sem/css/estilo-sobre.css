@@ -1,0 +1,39 @@
+#sobre{
+    background-color: var(--cor-primaria);
+    background: radial-gradient(circle at 50% 50% , #bfc6e3,#04c2e4 , #f5f2f4);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#sobre h2{
+    text-align: center;
+    margin: 2% 0%;
+}
+
+#sobre img{
+    max-width: 25vw;
+    margin-left: 5px;
+    float: right;
+    display: block;
+    border-radius: 10px;
+}
+
+#sobre p{
+    text-align: justify;
+    margin-bottom: 3%;
+}
+
+#sobre a{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    float: right;
+    
+    background-color: var(--cor-primaria);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    
+    width: 80px;
+    height: 20px;
+}

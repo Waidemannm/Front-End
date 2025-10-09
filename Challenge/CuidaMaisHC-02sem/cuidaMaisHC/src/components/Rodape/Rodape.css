@@ -1,0 +1,17 @@
+
+@layer components {
+  footer {
+    @apply w-[100vw] text-[1rem] text-[var(--color-font-rodape)] font-bold flex flex-col text-center bg-[var(--bg-rodape)] p-5 sm:text-[1.2rem] lg:text-[0.8rem] xl:text-[1rem];
+    & h1{
+        @apply m-4;
+    }
+    & div p {
+        @apply flex flex-wrap gap-7 justify-center;
+        & a{
+            @apply text-[1.4rem] sm:text-[1.8rem] md:text-[2rem] lg:text-[1.4rem] xl:text-[1.7rem];
+        }
+    }
+  }
+}
+
+

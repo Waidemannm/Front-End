@@ -1,0 +1,109 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Spray+Paint&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Verdana, sans-serif;
+    background-color: rgb(51, 51, 51);
+}
+
+header{
+  color: rgb(248, 19, 79);
+  text-align: center;
+  background-color: rgb(1, 8, 14);
+  padding: 20px;
+}
+h1{
+  font-size: 50px;
+  font-family: "Rubik Spray Paint", sans-serif;
+  font-weight: normal;
+}
+.link-nav{
+  font-size: 20px;
+  color: #ede8e2;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+.titulo{
+  text-align: center;
+  color: rgb(188, 19, 79);
+  font-family: "Rubik Spray Paint", sans-serif;
+  font-weight: normal;
+  font-variant: small-caps;
+  font-size: 30px;
+  margin: 30px;
+}
+.paragrafo{
+  margin: 65px;
+}
+.lista{
+  margin: 65px;
+}
+.como-chegar__lista{
+  margin-top: 10px;
+  margin-right: 65px;
+  margin-bottom: 65px;
+  margin-left: 65px;
+}
+.como-chegar__paragrafo{
+  margin-top: 65px;
+  margin-right: 65px;
+  margin-right: 65px;
+
+}
+
+.sessao{
+  padding: 20px;
+  text-align: center;
+  font-family: serif;
+  font-size: 26px;
+}
+.como-chegar{
+  display: flex;
+  justify-content: space-around;
+  margin: 2%;
+  gap: 50px;
+}
+.como-chegar__titulo{
+  text-align: center;
+  color: rgb(188, 19, 79);
+  width: 500px;
+  height: 90px;
+  font-family: "Rubik Spray Paint", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  font-variant: small-caps;
+}
+
+.imagens-local{
+  padding: 20px;
+  display: flex; /* alinha os elementos em uma linha */
+  gap: 20px;/* espçamento lateral entre os elementos */
+  justify-content: center;
+}
+ 
+img{
+  border-radius: 5px;
+  border-color: #000000;
+  box-shadow: 0 0 5px black;
+}
+.legenda{
+  width: 500px;
+  color: #ede8e2;
+  padding: 10px;
+  font-size: 15px;
+}
+
+footer{
+  text-align: center;
+  background-color: #272626;
+  padding: 20px;
+}
+.direitos-autorais{
+  color: rgb(248, 19, 79);
+  font-family: "Montserrat", sans-serif;
+}
+

@@ -1,0 +1,58 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Big MC",
+      "preco": "8.50",
+      "urlImg": "../public/Image/Img-lanches/big-mc.png"
+    },
+    {
+      "nome": "McLanche Flurry ",
+      "preco": "23.90",
+      "urlImg": "../public/Image/Img-sobremesa/mc-flurry.png",
+      "id": "2"
+    },
+    {
+      "id": "4",
+      "nome": "McShake Ovomaltine",
+      "preco": "13.50",
+      "urlImg": "../public/Image/Img-sobremesa/mcShake-ovomaltine.png"
+    },
+    {
+      "id": "5",
+      "nome": "Cheeseburguer",
+      "preco": "5",
+      "urlImg": "../public/Image/Img-lanches/Cheeseburguer.png"
+    },
+    {
+      "nome": "Cheddar McMelt",
+      "preco": "8.90",
+      "urlImg": "../public/Image/Img-lanches/Cheddar-McMelt.png",
+      "id": "6"
+    },
+    {
+      "id": "7",
+      "nome": "McFritas Grande",
+      "preco": "4.50",
+      "urlImg": "../public/Image/Img-batatas/McFritas-Grande.png"
+    },
+    {
+      "id": "8",
+      "nome": "McCrispy",
+      "preco": "23.50",
+      "urlImg": "../public/Image/Img-lanches/McCrispy.png"
+    },
+    {
+      "id": "7c7b",
+      "nome": "McChicken",
+      "preco": "9.50",
+      "urlImg": "../public/Image/Img-lanches/McChicken.png"
+    },
+    {
+      "id": "4288",
+      "nome": "Molho Tasty",
+      "preco": "12.00",
+      "urlImg": "../public/Image/Img-molhos/Tasty.png"
+    }
+  ]
+}

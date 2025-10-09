@@ -1,0 +1,486 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;
+1,100..900&display=swap);
+@import url(../css-solução/header.css);
+@import url(../css-solução/footer.css);
+@import url(../css-solução/principal.css);
+@import url(../css-solução/guia.css);
+@import url(../css-solução/login.css);
+@import url(../css-solução/lembrete.css);
+@import url(../css-solução/agendamento.css);
+@import url(../css-solução/cadastro.css);
+@import url(../css-solução/agenda.css);
+h1,h2 {
+    font-family:var(--font-base);
+    font-weight:900;
+    color:#ffff;
+    text-shadow:-2px -2px 0 #000,0 -2px 0 #000,2px -2px 0 #000,-2px 0 0 #000,2px 0 0 #000,-2px 2px 0 #000,0 2px 0 #000,2px 2px 0 #000
+}
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    list-style:none
+}
+:root {
+    --cor-primaria:#92D9DE;
+    --font-base:"Roboto",sans-serif;
+    --color-font:#1e1e1e
+}
+html {
+    font-size:62.5%;
+    height:100%
+}
+fieldset {
+    border:none
+}
+h1 {
+    margin-top:10%;
+    margin-bottom:3%;
+    font-size:3rem
+}
+h2 {
+    font-size:1.8rem
+}
+@media(min-width:601px) and (max-width:992px) {
+    header div nav ul {
+        gap:2.5rem
+    }
+    header div nav ul a {
+        font-size:4rem
+    }
+    #dias p,footer div a {
+        font-size:1.5rem
+    }
+    footer div p {
+        font-size:1.6rem
+    }
+    #cadastro h1,h1,h2 {
+        font-size:3rem
+    }
+    #agenda h1 {
+        font-size:3.2rem
+    }
+    #agenda h2,#frmAgendamento h1 {
+        font-size:2.7rem
+    }
+    #dias h3,#semana,.ajuda a,.ajuda p {
+        font-size:2rem
+    }
+    #semana {
+        gap:11vw;
+        margin:4%
+    }
+    #btnCadastro,#frmAgendamento fieldset div label,#frmCadastro fieldset div label {
+        font-size:1.7rem
+    }
+    #agenda #calend {
+        height:122vh
+    }
+    #dias div,#dias section {
+        width:17vw;
+        height:12vh
+    }
+    #dias {
+        margin:2% 0
+    }
+    #frmCadastro fieldset legend,#frmLembrete h1 {
+        font-size:2.5rem
+    }
+    #frmCadastro {
+        width:70vw;
+        height:80vh
+    }
+    #btnCadastro {
+        width:45vw;
+        height:6vh;
+        margin:6% 0
+    }
+    #frmCadastro fieldset div input,#frmLembrete fieldset input {
+        width:45vw;
+        height:6vh
+    }
+    #frmAgendamento {
+        width:85vw;
+        height:100vh
+    }
+    #btnEnviar {
+        margin:5%
+    }
+    #idNome {
+        width:70vw;
+        height:5vh
+    }
+    #idEspecialidade,#idTelefone {
+        width:65vw;
+        height:5vh
+    }
+    #idHorario {
+        width:58vw;
+        height:5vh
+    }
+    #idAno,#idDIa,#idMes {
+        width:7vw;
+        height:6vh
+    }
+    #idObservacao {
+        width:46vw;
+        height:15vh
+    }
+    #principalGuia {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        background-color:#92d9de
+    }
+    .ajuda {
+        height:70vh
+    }
+    .ajuda a {
+        width:50vw;
+        height:7vh
+    }
+    #frmLembrete {
+        height:55vh
+    }
+    #frmLembrete h1 {
+        margin:3.5rem
+    }
+    #frmLembrete fieldset label,#frmLogin fieldset legend {
+        font-size:1.8rem
+    }
+    #frmLembrete fieldset div button {
+        width:50vw;
+        height:8.3vh;
+        font-size:1.7rem
+    }
+    #frmLogin {
+        height:67vh
+    }
+    #frmLogin fieldset div input {
+        width:45vw;
+        height:5.5vh
+    }
+    #btnEntrar,#btnEsqueceu {
+        font-size:1.8rem;
+        width:45vw;
+        height:7vh
+    }
+    #agendar,#cadastrar,#calendario,#fazerLogin,#guia,#lembrete {
+        width:40vw;
+        height:29vh
+    }
+}
+@media (min-width:993px) and (max-width:1300px) {
+    .ajuda a,.ajuda p {
+        font-size:2.3rem
+    }
+    header div nav ul {
+        gap:3rem
+    }
+    header div nav ul a {
+        font-size:4rem
+    }
+    #frmLogin fieldset div label,footer div a,footer div p {
+        font-size:1.8rem
+    }
+    #agenda h2,h1,h2 {
+        font-size:3.3rem
+    }
+    #agenda h1,#cadastro h1 {
+        font-size:3.8rem
+    }
+    #semana {
+        font-size:2rem;
+        gap:13vw;
+        margin:4%
+    }
+    #agenda #calend {
+        height:230vh
+    }
+    #dias div,#dias section {
+        width:17vw;
+        height:22vh
+    }
+    #dias {
+        margin:3% 0
+    }
+    #dias h3 {
+        font-size:3rem
+    }
+    #btnCadastro,#dias p,#frmCadastro fieldset div label {
+        font-size:2rem
+    }
+    #frmCadastro {
+        height:100vh
+    }
+    #frmCadastro fieldset legend {
+        font-size:3rem;
+        margin:2rem 0
+    }
+    #btnCadastro {
+        width:50vw;
+        height:8vh;
+        margin:6% 0
+    }
+    #frmCadastro fieldset div input,#frmLogin fieldset div input {
+        width:50vw;
+        height:7vh
+    }
+    #frmAgendamento {
+        width:85vw;
+        height:135vh
+    }
+    #btnEnviar,.ajuda a {
+        width:20vw;
+        height:7vh
+    }
+    #frmAgendamento h1 {
+        font-size:3.5em
+    }
+    #frmAgendamento fieldset div label,#frmLogin fieldset legend {
+        font-size:2.5rem
+    }
+    #btnEnviar {
+        margin:7%
+    }
+    #idNome {
+        width:70vw;
+        height:6.5vh
+    }
+    #idEspecialidade,#idTelefone {
+        width:71vw;
+        height:6.5vh
+    }
+    #idHorario {
+        width:59.1vw;
+        height:6.5vh
+    }
+    #idAno,#idDIa,#idMes {
+        width:8vw;
+        height:7.5vh
+    }
+    #idObservacao {
+        width:47vw;
+        height:28vh
+    }
+    .ajuda {
+        width:40vw;
+        height:80vh;
+        margin:10% 0
+    }
+    #principal {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        gap:4rem
+    }
+    #principalGuia {
+        align-items:center;
+        text-align:center;
+        background-color:#92d9de;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        gap:4rem
+    }
+    #frmLembrete {
+        margin:7%;
+        height:70vh
+    }
+    #frmLembrete h1 {
+        margin:7rem;
+        font-size:3rem
+    }
+    #frmLembrete fieldset input {
+        width:48vw;
+        height:8vh
+    }
+    #frmLembrete fieldset label {
+        font-size:2.2rem
+    }
+    #frmLembrete fieldset div button {
+        width:55vw;
+        height:10.9vh;
+        font-size:1.7rem
+    }
+    #frmLogin {
+        height:75vh
+    }
+    #btnEntrar,#btnEsqueceu {
+        font-size:2.4rem;
+        width:50vw;
+        height:9vh
+    }
+    #agendar,#cadastrar,#calendario,#fazerLogin,#guia,#lembrete {
+        width:40vw;
+        height:40vh
+    }
+}
+@media(min-width:1301px) {
+    header div nav ul {
+        gap:3rem
+    }
+    h1,h2,header div nav ul a {
+        font-size:4rem
+    }
+    footer div a,footer div p {
+        font-size:1.8rem
+    }
+    #agenda h1 {
+        font-size:4.2rem
+    }
+    #agenda h2 {
+        font-size:3.8rem;
+        margin:3%
+    }
+    #semana {
+        font-size:2.5rem;
+        gap:13vw;
+        margin:2%
+    }
+    #btnCadastro,#frmCadastro fieldset div label {
+        font-size:2rem
+    }
+    #agenda #calend {
+        margin:0 0 5%;
+        width:95vw;
+        height:240vh
+    }
+    #dias div,#dias section {
+        width:17vw;
+        height:22vh
+    }
+    #dias {
+        margin:1% 0
+    }
+    #dias h3 {
+        font-size:3.5rem
+    }
+    #dias p,.ajuda p {
+        font-size:2.5rem
+    }
+    #frmCadastro {
+        height:110vh
+    }
+    #frmCadastro fieldset legend {
+        font-size:3rem;
+        margin:3rem 0
+    }
+    #cadastro h1 {
+        font-size:3.8rem
+    }
+    #btnCadastro {
+        width:50vw;
+        height:8vh;
+        margin:6% 0
+    }
+    #frmCadastro fieldset div input {
+        width:50vw;
+        height:7vh
+    }
+    #frmAgendamento {
+        height:160vh
+    }
+    #frmAgendamento h1 {
+        font-size:4.8rem
+    }
+    #frmAgendamento fieldset div label {
+        font-size:3rem
+    }
+    #btnEnviar {
+        height:9vh;
+        margin:8%
+    }
+    #idHorario,#idNome,.ajuda a {
+        height:7vh
+    }
+    #idEspecialidade,#idTelefone {
+        width:71vw;
+        height:7vh
+    }
+    #data {
+        gap:7rem
+    }
+    #idHorario {
+        width:59.9vw
+    }
+    #idAno,#idDIa,#idMes {
+        width:6vw;
+        height:8vh
+    }
+    #idObservacao {
+        width:47vw;
+        height:35vh
+    }
+    .ajuda {
+        margin:10% 0;
+        width:40vw;
+        height:85vh
+    }
+    #principal {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        gap:4rem
+    }
+    #principalGuia {
+        align-items:center;
+        text-align:center;
+        background-color:#92d9de;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        gap:4rem
+    }
+    .ajuda a {
+        font-size:2.3rem;
+        width:20vw
+    }
+    #frmLembrete {
+        margin:7%;
+        height:80vh
+    }
+    #frmLembrete h1 {
+        margin:7.5rem;
+        font-size:3.5rem
+    }
+    #frmLembrete fieldset input {
+        width:50vw;
+        height:9vh;
+        margin:2%
+    }
+    #frmLembrete fieldset label {
+        font-size:2.7rem;
+        margin:2%
+    }
+    #frmLembrete fieldset div button {
+        width:50vw;
+        height:11.5vh;
+        font-size:3rem
+    }
+    #imgWpp {
+        max-width:11%
+    }
+    #frmLogin {
+        height:88vh
+    }
+    #frmLogin fieldset legend {
+        font-size:2.8rem
+    }
+    #frmLogin fieldset div label {
+        font-size:2.2rem
+    }
+    #frmLogin fieldset div input {
+        width:50vw;
+        height:8vh
+    }
+    #btnEntrar,#btnEsqueceu {
+        font-size:2.8rem;
+        width:50vw;
+        height:11vh
+    }
+    #agendar,#cadastrar,#calendario,#fazerLogin,#guia,#lembrete {
+        height:50vh
+    }
+}

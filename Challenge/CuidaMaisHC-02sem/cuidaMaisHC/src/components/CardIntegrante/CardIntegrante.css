@@ -1,0 +1,13 @@
+@layer base{
+    .cardIntegrante{
+        @apply flex flex-col justify-center gap-2 items-center shadow-2xl w-[var(--size-X-card-intg)] h-[var(--size-Y-card-intg)] rounded-2xl  m-10  md:h-[45vh] lg:w-[25vw] lg:h-[55vh] lg:my-10 xl:my-20 2xl:my-30 xl:h-[65vh];
+        & h2{
+            @apply font-bold text-[1rem] text-[var(--color-font-black)] text-center
+        }
+    }
+    .imgIntegrantes{
+        @apply w-[var(--img-integrantes)] rounded-lg lg:w-[10vw] xl:w-[10vw] 2xl:w-[10vw];
+    }
+    
+}
+ 

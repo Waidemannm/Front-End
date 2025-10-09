@@ -1,0 +1,87 @@
+#btnCadastro,#frmCadastro fieldset div label,#frmCadastro fieldset legend {
+    font-family:var(--font-base);
+    font-weight:900;
+    color:#ffff;
+    text-shadow:-2px -2px 0 #000,0 -2px 0 #000,2px -2px 0 #000,-2px 0 0 #000,2px 0 0 #000,-2px 2px 0 #000,0 2px 0 #000,2px 2px 0 #000
+}
+#cadastro {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:var(--cor-primaria)
+}
+#frmCadastro,#frmCadastro fieldset div {
+    flex-direction:column;
+    display:flex
+}
+#cadastro h1 {
+    font-size:2rem
+}
+#frmCadastro {
+    justify-content:center;
+    align-items:center;
+    text-align:left;
+    background-color:#ffff;
+    box-shadow:5px 5px 6px #0000006e;
+    border-radius:16px;
+    width:65vw;
+    height:72vh;
+    margin:10% 0;
+    border:none
+}
+#frmCadastro fieldset h1 {
+    text-align:center
+}
+#frmCadastro fieldset legend {
+    font-size:1.6rem;
+    text-align:center
+}
+#frmCadastro fieldset div label {
+    margin:2rem 0;
+    font-size:1.5rem
+}
+#frmCadastro fieldset div input {
+    width:40vw;
+    height:4vh;
+    border-radius:12px;
+    border-width:1px
+}
+#btnCadastro {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#1e73c3;
+    border-radius:14px;
+    border:none;
+    width:40vw;
+    height:5vh;
+    margin:20% 0;
+    font-size:1.5rem
+}
+#msgError {
+    text-align: center;
+    color: #ff0000;
+    background-color: #ff1234;
+    width: 25vw;
+    height: 4.5vh;
+    border-radius: 4px;
+    display: none;
+}
+#msgSuccess {
+    text-align: center;
+    color: #00bb00;
+    background-color: #bbffbe;
+    width: 25vw;
+    height: 4vh;
+    border-radius: 4px;
+    display: none;
+}
+#msgErro {
+    font-size: 1.3rem;
+    font-family: var(--font-base);
+}
+#msgSuce {
+    font-size: 1.3rem;
+    font-family: var(--font-base);
+}

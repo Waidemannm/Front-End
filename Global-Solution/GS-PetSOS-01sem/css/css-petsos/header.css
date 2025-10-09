@@ -1,0 +1,1 @@
+.container{display:flex;flex-direction:row-reverse;justify-content:center;background-color:var(--cor-primaria);font-family:var(--font-base);align-items:center;gap:1rem;height:4.5rem;font-size:1rem;color:var(--color-font);font-weight:100}.container img{width:8vw}

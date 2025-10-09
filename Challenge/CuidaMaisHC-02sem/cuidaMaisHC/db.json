@@ -1,0 +1,256 @@
+{
+  "integrantes": [
+    {
+      "id": "1",
+      "nome": "Moisés Waidemann",
+      "urlImg": "../public/Images/ImgPagesObrigatorias/Integrantes/Moises.jpeg",
+      "paragrafo": "Olá! sou o Moisés Waidemann Molinillo Júnior, tenho 18 anos, estudo Análise e Desenvolvimentos de Sistema na Fiap, da turma 1TDSPH manhã.",
+      "urlGit": "https://github.com/Waidemannm",
+      "urlLinkedIn": "https://www.linkedin.com/in/mois%C3%A9s-waidemann-a99a31333/"
+    },
+    {
+      "id": "2",
+      "nome": "Gabriel Sbrana",
+      "urlImg": "../public/Images/ImgPagesObrigatorias/Integrantes/Gabriel.jpeg",
+      "paragrafo": "Olá, sou o Gabriel Sbrana Campos. Tenho 18 anos, sou estudante de Análise e Desenvolvimento de Sistemas na FIAP, estou desenvolvendo uma solução para o Hospital das Clínicas, da turma 1TDSPH.",
+      "urlGit": "https://github.com/devsbrana",
+      "urlLinkedIn": "https://www.linkedin.com/in/gabriel-sbrana-campos-0031b1307/"
+    },
+    {
+      "id": "3",
+      "nome": "Thiago Mota",
+      "urlImg": "../public/Images/ImgPagesObrigatorias/Integrantes/Thiago.jpeg",
+      "paragrafo": "Olá, sou o Thiago Rodrigues da Mota. Tenho 20 anos, sou estudante de Análise e Desenvolvimento de Sistemas na FIAP, estou desenvolvendo uma solução para o Hospital das Clínicas.",
+      "urlGit": "https://github.com/ThiagoMoota",
+      "urlLinkedIn": "https://www.linkedin.com/in/thiago-rodrigues-da-mota/"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "cpf": "44750255831",
+      "telefone": "11969787666",
+      "nome": "Moisés Waidemann",
+      "senha": "Moises@12"
+    },
+    {
+      "id": "2",
+      "cpf": "08134732925",
+      "telefone": "11942282107",
+      "nome": "Gabriel Sbranna",
+      "senha": "Sbranna098@"
+    },
+    {
+      "id": "3",
+      "cpf": "38470567861",
+      "telefone": "11977581297",
+      "nome": "Thiago Mota",
+      "senha": "Mota123@"
+    },
+    {
+      "id": "4",
+      "cpf": "55674677865",
+      "telefone": "11976467384",
+      "nome": "Leandro",
+      "senha": "Leo122"
+    },
+    {
+      "id": "4",
+      "cpf": "54637455643",
+      "telefone": "11967845637",
+      "nome": "Bruno Brito",
+      "senha": "BruBri145@"
+    },
+    {
+      "id": "6",
+      "cpf": "44387500989",
+      "telefone": "11900909879",
+      "nome": "Leticia Palmares",
+      "senha": "LetPal99"
+    }
+  ],
+  "especialidades": [
+    {
+      "id": "1",
+      "nome": "Atenção a Doença Renal Crônica"
+    },
+    {
+      "id": "2",
+      "nome": "Atenção à Obesidade"
+    },
+    {
+      "id": "3",
+      "nome": "Atenção a Pessoas com Doenças Raras"
+    },
+    {
+      "id": "4",
+      "nome": "Atenção à Saúde Auditiva"
+    },
+    {
+      "id": "5",
+      "nome": "Atenção à Saúde Reprodutiva"
+    },
+    {
+      "id": "6",
+      "nome": "Atenção Domiciliar"
+    },
+    {
+      "id": "7",
+      "nome": "Atenção Psicossocial"
+    },
+    {
+      "id": "8",
+      "nome": "Atendimento Geral"
+    },
+    {
+      "id": "9",
+      "nome": "Cardiologia e Tratamento Cardiovascular"
+    },
+    {
+      "id": "10",
+      "nome": "Cirurgia Reparadora"
+    },
+    {
+      "id": "11",
+      "nome": "Cirurgia Torácica"
+    },
+    {
+      "id": "12",
+      "nome": "Cirurgia Vascular"
+    },
+    {
+      "id": "13",
+      "nome": "Diagnóstico por Imagem"
+    },
+    {
+      "id": "14",
+      "nome": "Diagnóstico de Laboratório Clínico"
+    },
+    {
+      "id": "15",
+      "nome": "Diagnóstico por Anatomia Patológica ou Citopatologia"
+    },
+    {
+      "id": "16",
+      "nome": "Dispensação de Órteses e Próteses"
+    },
+    {
+      "id": "17",
+      "nome": "Endocrinologia"
+    },
+    {
+      "id": "18",
+      "nome": "Exame de DST/HIV/Aids"
+    },
+    {
+      "id": "19",
+      "nome": "Farmácia"
+    },
+    {
+      "id": "20",
+      "nome": "Fisioterapia"
+    },
+    {
+      "id": "21",
+      "nome": "Hemoterapia"
+    },
+    {
+      "id": "22",
+      "nome": "Imunização"
+    },
+    {
+      "id": "23",
+      "nome": "Neurologia e Neurocirurgia"
+    },
+    {
+      "id": "24",
+      "nome": "Oftalmologia"
+    },
+    {
+      "id": "25",
+      "nome": "Oncologia"
+    },
+    {
+      "id": "26",
+      "nome": "Otorrinolaringologia"
+    },
+    {
+      "id": "27",
+      "nome": "Pneumologia"
+    },
+    {
+      "id": "28",
+      "nome": "Pré-natal / Parto e Nascimento"
+    },
+    {
+      "id": "29",
+      "nome": "Processo Transexualizador"
+    },
+    {
+      "id": "30",
+      "nome": "Reabilitação"
+    },
+    {
+      "id": "31",
+      "nome": "Suporte Nutricional"
+    },
+    {
+      "id": "32",
+      "nome": "Terapia Intensiva"
+    },
+    {
+      "id": "33",
+      "nome": "Transplante"
+    },
+    {
+      "id": "34",
+      "nome": "Urgência e Emergência"
+    },
+    {
+      "id": "35",
+      "nome": "Urologia"
+    }
+  ],
+  "agendamentos": [
+    {
+      "id": "1",
+      "cpf": "44750255831",
+      "nome": "Moisés Waidemann",
+      "telefone": "11969787666",
+      "data": "2025-10-11",
+      "horario": "14:20",
+      "especialidade": "Farmácia",
+      "observacoes": ""
+    },
+    {
+      "id": "2",
+      "cpf": "08134732925",
+      "nome": "Gabriel Sbranna",
+      "telefone": "11942282107",
+      "data": "2006-07-21",
+      "horario": "14:00",
+      "especialidade": "Atenção a Doença Renal Crônica",
+      "observacoes": ""
+    },
+    {
+      "id": "3",
+      "cpf": "44750255831",
+      "nome": "Moisés Waidemann Molinillo Júnior",
+      "telefone": "11976467384",
+      "data": "2025-09-09",
+      "horario": "13:30",
+      "especialidade": "Endocrinologia",
+      "observacoes": ""
+    },
+    {
+      "id": "c3eb",
+      "cpf": "44750255831",
+      "nome": "Moisés Waidemann Molinillo Júnior",
+      "telefone": "11976467384",
+      "data": "2025-09-10",
+      "horario": "15:00",
+      "especialidade": "Diagnóstico por Anatomia Patológica ou Citopatologia",
+      "observacoes": "dsa"
+    }
+  ]
+}

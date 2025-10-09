@@ -1,0 +1,39 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Mouse Gamer",
+      "preco": "250"
+    },
+    {
+      "id": "2",
+      "nome": "Teclado Mecânico",
+      "preco": "349.98"
+    },
+    {
+      "id": "3",
+      "nome": "Teclado",
+      "preco": "150.89"
+    },
+    {
+      "id": "4",
+      "nome": "Mouse Optico",
+      "preco": 99.9
+    },
+    {
+      "id": "5",
+      "nome": "Monitor 15'",
+      "preco": 215.75
+    },
+    {
+      "id": "6",
+      "nome": "Mouse Pad",
+      "preco": 315.3
+    },
+    {
+      "id": "7",
+      "nome": "Fone de Ouvido",
+      "preco": 50.34
+    }
+  ]
+}

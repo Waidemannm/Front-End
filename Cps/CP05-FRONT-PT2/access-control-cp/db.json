@@ -1,0 +1,28 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Gabriel Sbrana",
+      "nomeUsuario": "devSbrana",
+      "email": "sbrannaww@gmail.com"
+    },
+    {
+      "id": "",
+      "nome": "Moisés Waidemann Molinillo Júnior",
+      "nomeUsuario": "Waidemann",
+      "email": "jrmolinillo12@gmail.com"
+    },
+    {
+      "id": "",
+      "nome": "Thiago Rodrigues da Mota",
+      "nomeUsuario": "thigas1",
+      "email": "thiago_mota123@hotmail.com"
+    },
+    {
+      "id": "",
+      "nome": "Jose",
+      "nomeUsuario": "Josezin",
+      "email": "Jo@gmail.com.br"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+@layer routes{
+    .pageIntegrante {
+        @apply text-center flex flex-col items-center my-10 lg:mt-50 xl:mt-60 2xl:mt-70;
+    }
+    .pageIntegrante h1{
+        @apply font-bold text-[1.2rem] text-[var(--btn-color-menu)] text-center;
+    }
+    .integrante{
+        @apply text-[var(--color-font-black)] text-[1rem] text-center lg:flex lg:flex-wrap;
+    }
+}  

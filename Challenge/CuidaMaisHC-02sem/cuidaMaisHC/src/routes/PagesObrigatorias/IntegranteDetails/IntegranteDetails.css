@@ -1,0 +1,20 @@
+@layer routes{
+    .pageDetails{
+        @apply flex flex-col items-center my-10 text-center lg:my-55 xl:my-65;
+        & h1{
+            @apply font-bold text-[1.2rem] text-[var(--btn-color-menu)] text-center;
+        }
+    }
+    .detailIntegrante{
+        @apply flex flex-col items-center justify-center gap-2 items-center shadow-2xl w-[var(--size-X-detail-intg)] h-[var(--size-Y-detail-intg)] rounded-2xl p-8 gap-6 m-10 xl:h-[70vh] 2xl:h-[75vh];
+    }
+    .imgIntegrantes{
+        @apply w-[var(--img-integrantes)] rounded-lg;
+    }
+    .btnIntegrantes{
+        @apply flex flex-wrap gap-10;
+    }
+    .btnGit, .btnlinkedIn{
+        @apply flex flex-wrap items-center justify-center bg-[var(--btn-color-menu)] w-[var(--btn-size-X-detail)] h-[var(--btn-size-Y-detail)] text-[1.2rem] text-center text-white font-bold rounded-full shadow-2xl;
+    }
+} 

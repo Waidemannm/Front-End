@@ -1,0 +1,23 @@
+@layer components{
+    .formAgendamento{
+        @apply border-5 rounded-2xl w-[var(--form-size-X-agdnt)] h-[var(--form-size-Y-agdnt)] p-2 border-gray-800 m-10 flex flex-col shadow-2xl md:w-[45vw] lg:w-[40vw]  xl:w-[30vw] xl:h-[130vh];
+        & div{
+            @apply flex flex-col m-4 gap-3;
+        }
+        & .divButton{
+            @apply items-center;
+        }
+        & div label{
+            @apply  text-[1rem];
+        }
+        & div input{
+            @apply p-1 text-[1.2rem] m-2 rounded-sm border-b-2;
+        }
+        & div select{
+           @apply text-[1.2rem] m-2 rounded-sm border-b-2; 
+        }
+        & div button{
+            @apply flex items-center justify-center bg-[var(--btn-color-menu)] w-[var(--btn-size-X-menu)] h-[var(--btn-size-Y-menu)] text-[1.2rem] text-center text-white font-bold rounded-2xl my-5 md:w-[35vw] lg:w-[30vw] xl:w-[20vw] ;
+        }
+    }
+}

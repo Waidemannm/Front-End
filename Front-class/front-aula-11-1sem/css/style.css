@@ -1,0 +1,19 @@
+/* É um comentário em CSS */
+
+/*
+    Selecione o seletor de título 1 e adicione cor ao seu texto.
+*/
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: #D80510;
+    background-color: #334da033;
+    text-align: center;
+    width: 400px;
+    border: 5px solid #00ff00;
+}

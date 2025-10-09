@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes Animal</title>
+    <link rel="stylesheet" href="../css/css-petsos/style.css">
+    <link rel="shortcut icon" href="../assets/img/img-obrigatorias/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "35f8f6d2-1237-4f88-ab90-ddd078f31d15", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "fb229c84-9a88-45b3-97e0-2f0cc6b6f50c", // The ID of your service instance.
+            onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+            const t=document.createElement('script');
+            t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
+    <script src="../js/petSOS/detalhes.js" defer></script>
+</head>
+<body>
+     <header>
+        <a href="../pages-petsos/principal.html">
+            <div class="container">
+                <img src="../assets/img/img-solucao/detalhes/logo.png" alt="Logo da petSOS">
+                <h1>PetSOS</h1>
+            </div>
+        </a>
+    </header>
+    <main>
+        <div id="detalhes">
+            <a id="voltar" href="../pages-petsos/principal.html">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a> 
+            <h2>Detalhes do Animal</h2>
+        </div>
+        <div id="conteudo-animal">
+            <section id="detalhe-animal">
+                <img id="foto-detalhe" src="../assets/img/img-obrigatorias/integrantes/img-Thiago.jpeg" alt="">
+                <h3 id="nome-detalhe">Clodomiro</h3>
+                <p>Raça: Pinscher</p>
+                <p>Status: Desaparecido</p>
+                <p id="data-detalhes">19/03/2025</p>
+                <p><i class="fa-solid fa-location-dot"></i>Em Xique Xique - Bahia</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <i class="fa-solid fa-chevron-up"></i>
+        <a href="#links-navegacao">Voltar ao topo da página</a>
+        <p>&copy; Minha Página - Todos os Direitos Reservados</p>
+    </footer>
+</body>
+</html>

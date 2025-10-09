@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+:root{
+    scroll-behavior:smooth;
+}
+
+@layer{
+
+    .container{
+        @apply flex flex-col w-screen h-screen justify-between;
+
+        & header{
+            @apply bg-blue-500 text-white w-screen h-[20vh];
+
+            & h1{
+                @apply text-center mb-5 font-bold text-3xl;
+            }
+
+            & .menu{
+                @apply w-full flex flex-wrap justify-around;
+
+                & a{
+                    @apply bg-amber-50 text-black p-2 w-30 text-center rounded-xl border-2;
+
+                    &:hover{
+                        @apply underline bg-gray-300;
+                    }
+                }
+            }
+        }
+
+        & main{
+            @apply w-screen h-[60vh] overflow-auto;
+            
+            & table{
+                @apply border-2 p-[10px] m-auto;
+
+                & th,td{
+                    @apply border-2 text-center p-[10px];
+                }
+            }
+        }
+
+        & footer{
+            @apply bg-blue-500 text-white w-screen h-[20vh];
+        }
+    }
+
+    .classePrincipal{
+
+        @apply md:bg-amber-400 sm:bg-amber-900;
+
+    }
+
+    .frmEditar{
+        @apply flex flex-col w-[300px] m-auto p-[10px] border-2 bg-white rounded-[5px] shadow-lg;
+
+        & label{
+            @apply font-bold block mb-[5px];
+        }
+
+        & input{
+            @apply border-2 mb-[10px] px-2 rounded-[5px];
+        }
+
+        & button{
+            @apply bg-blue-500 text-white font-bold p-[10px] rounded hover:bg-blue-700;
+        }
+        .ErrorInput{
+            @apply mt-1 text-sm text-red-500
+        }
+    }
+
+    .janelaDelete{
+        @apply p-5 bg-yellow-100 border-2 rounded-xl m-auto;
+        & h2{
+            @apply font-bold;
+        }
+        & .botoes{
+            @apply flex flex-wrap justify-center gap-10 m-5;
+        }
+        & .sim{
+            @apply p-2 bg-green-500 border-2 rounded-xl m-auto; 
+        } 
+        & .nao{
+            @apply p-2 bg-red-500 border-2 rounded-xl m-auto;
+        }
+    }
+
+}

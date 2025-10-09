@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css-solução/style.css">
+    <link rel="stylesheet" href="../css-solução/style.css">
+    <title>Calendário</title>
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "88cda2b1-683e-4a9c-af71-3732ac108246", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "efffbd5a-e1b1-46ab-b96d-0b6b6623cf27", // The ID of your service instance.
+            onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+            const t=document.createElement('script');
+            t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="../pages-solucao/principal.html"><img id="logoHC" src="../assets/img/solucao/principal/logohc.png" alt="Imagem do logo do Hospital das Clínicas"></a>
+        </div>
+        <div>
+            <nav role="Juntar links de navegação">
+                <ul aria-label="Links de acesso para barra de tarefas, notificações e pesquisa">
+                    <a href="#" rel="noopner" target="_blank"><i class="fa fa-search"></i></a>
+                    <a href="#" rel="noopner" target="_blank"><i class="fa fa-bell"></i></a>
+                    <a href="../pages-solucao/principal.html" rel="noopner" target="_blank"><i class="fa fa-bars"></i></a>
+                </ul>
+            </nav>
+        </div>
+    
+    </header>
+
+    <main>
+        <div id="agenda">
+            <h1 id="topo">Calendário</h1>
+            <div id="calend">
+                <h2>Maio 2025</h2>
+                <div id="semana">
+                    <h3>Segunda</h3>
+                    <h3>Terça</h3>
+                    <h3>Quarta</h3>
+                    <h3>Quinta</h3>
+                    <h3>Sexta</h3>
+                </div>
+                <div id="dias">
+                    <section >
+                        <h3>1</h3>
+                        <p>Psiquiatra</p>
+                    </section>
+                    <div>
+                        <h3>2</h3>
+                    </div>
+                    <div>
+                        <h3>3</h3>
+                    </div>
+                    <div>
+                        <h3>4</h3>
+                    </div>
+                    <section>
+                        <h3>5</h3>
+                        <p>Cardiologia</p>
+                    </section>
+                    <div>
+                        <h3>6</h3>
+                    </div>
+                    <div>
+                        <h3>7</h3>
+                    </div>
+                    <div>
+                        <h3>8</h3>
+                    </div>
+                    <div>
+                        <h3>9</h3>
+                    </div>
+                    <div>
+                        <h3>10</h3>
+                    </div>
+                    <div>
+                        <h3>11</h3>
+                    </div>
+                    <div>
+                        <h3>12</h3>
+                    </div>
+                    <section>
+                        <h3>13</h3>
+                        <p>Ortopedista</p>
+                    </section>
+                    <div>
+                        <h3>14</h3>
+                    </div>
+                    <div>
+                        <h3>15</h3>
+                    </div>
+                    <div>
+                        <h3>16</h3>
+                    </div>
+                    <div>
+                        <h3>17</h3>
+                    </div>
+                    <div>
+                        <h3>18</h3>
+                    </div>
+                    <div>
+                        <h3>19</h3>
+                    </div>
+                    <div>
+                        <h3>20</h3>
+                    </div>
+                    <div>
+                        <h3>21</h3>
+                    </div>
+                    <section>
+                        <h3>22</h3>
+                        <p>Neurologia</p>
+                    </section>
+                    <div>
+                        <h3>23</h3>
+                    </div>
+                    <div>
+                        <h3>24</h3>
+                    </div>
+                    <section>
+                        <h3>25</h3>
+                        <p>Urologista</p>
+                    </section>
+                    <div>
+                        <h3>26</h3>
+                    </div>
+                    <div>
+                        <h3>27</h3>
+                    </div>
+                    <div>
+                        <h3>28</h3>
+                    </div>
+                    <section>
+                        <h3>29</h3>
+                        <p>Radiologista</p>
+                    </section>
+                    <div>
+                        <h3>30</h3>
+                    </div>
+                    <div>
+                        <h3>31</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
+    <footer>
+        <div>
+            <i class="fa-solid fa-chevron-up"></i>
+            <a href="#topo">Voltar ao topo da página</a></div>
+        <div id="rodape">        
+            <p>Assistente Virtual - HC</p>
+            <p>&copy; 2025 1TDSPH - Todos os direitos reservados </p>
+        </div>
+    </footer>
+</body>
+</html>

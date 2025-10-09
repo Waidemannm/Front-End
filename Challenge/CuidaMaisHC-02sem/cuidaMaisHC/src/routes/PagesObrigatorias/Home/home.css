@@ -1,0 +1,42 @@
+ @layer routes{
+    .pageHome{ 
+        @apply p-5 lg:mt-40 xl:mt-40 2xl:mt-40;
+        & h1{
+            @apply text-[1.2rem] font-bold text-center 2xl:text-[1.5rem];
+        }
+        & p{
+            @apply lg:text-[1rem] 2xl:text-[1.2rem];
+        }
+
+        & .sobre{
+            @apply my-16 flex flex-col gap-2 m-6 text-center lg:px-40 lg:text-left 2xl:px-100;
+        }
+
+        & .beneficios{
+            @apply my-16 flex flex-col text-[1.2rem] gap-5 items-center lg:flex-wrap ; 
+        }
+
+        & .cuidaMais{
+            @apply m-16 flex flex-col text-center items-center gap-3 2xl:gap-6;
+        }
+
+        & .comoChegar{
+            @apply my-16 flex flex-col items-center p-5 m-6 gap-5 lg:px-40 2xl:px-100 2xl:gap-8;
+            & .endereco{
+                @apply font-bold text-center;
+            }
+        }
+
+        & .integrantes{
+            @apply my-16 flex flex-col m-6 gap-5 items-center lg:px-40 2xl:px-100 2xl:gap-8;
+        }
+
+        & .iconeBeneficios{
+            @apply text-[var(--btn-color-menu)] font-bold text-[2rem];
+        }
+
+        & .btnCuidaMais{
+            @apply flex items-center justify-center bg-[var(--btn-color-menu)] w-[40vw] h-[4vh] text-[1rem] text-center text-white font-bold rounded-2xl lg:w-[15vw] lg:h-[5vh] lg:text-[0.8rem] 2xl:text-[1rem]; 
+        }
+    }
+ }

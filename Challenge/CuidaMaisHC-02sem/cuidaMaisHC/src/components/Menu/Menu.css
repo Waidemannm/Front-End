@@ -1,0 +1,17 @@
+@layer components {
+  .opcaosMenu {
+    @apply flex flex-col m-5 mt-[7rem] justify-center items-center gap-5 p-4 sm:mt-[13.3rem] md:mt-[9rem] lg:mt-[6rem] lg:fixed lg:bg-[var(--btn-color-menu)] lg:flex-wrap lg:h-[10vh] lg:p-0 lg:m-0  xl:fixed xl:mt-[7rem] 2xl:mt-[7.4rem] 2xl:fixed 2xl:bg-[var(--btn-color-menu)] lg:w-full xl:w-full 2xl:w-full;     
+  }
+  .opcao{
+    @apply flex items-center justify-center bg-[var(--btn-color-menu)] w-[var(--btn-size-X-menu)] h-[var(--btn-size-Y-menu)] text-[1.2rem] text-center text-white font-bold rounded-2xl shadow-2xl shadow-lg sm:text-[1.5rem] lg:w-[12.7vw] lg:h-[10vh] lg:shadow-none lg:text-[1rem] xl:h-[10vh]  xl:w-[13.1vw] 2xl:h-[7.6vh] 2xl:w-[13.5vw];
+  }
+  .opcao:hover{
+    @apply bg-[var(--color-font-rodape)] lg:h-[10vh] lg:rounded-none lg:w-[12.7vw] xl:h-[10vh] xl:w-[13.1vw] 2xl:h-[10vh] 2xl:w-[13.5vw] transition-all duration-300;
+  }
+  .opcao-ativa {
+    @apply shadow-lg bg-[var(--btn-color-menu-atual)] lg:rounded-none lg:w-[12.7vw] lg:h-[10vh] xl:h-[10vh] xl:w-[13.1vw] 2xl:h-[10vh] 2xl:w-[13.5vw];
+  }
+  .opcao-ativa:hover{
+    @apply bg-[var(--btn-color-menu-atual)] ;
+  }
+}

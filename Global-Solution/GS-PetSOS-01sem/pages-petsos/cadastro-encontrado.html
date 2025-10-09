@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Perdido</title>
+    <link rel="stylesheet" href="../css/css-petsos/style.css">
+    <link rel="shortcut icon" href="../assets/img/img-obrigatorias/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "35f8f6d2-1237-4f88-ab90-ddd078f31d15", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "fb229c84-9a88-45b3-97e0-2f0cc6b6f50c", // The ID of your service instance.
+            onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+            const t=document.createElement('script');
+            t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
+    <script src="../js/petSOS/encontrado.js" defer></script>
+</head>
+<body>
+     <header>
+        <a href="../pages-petsos/principal.html">
+            <div class="container">
+                <img src="../assets/img/img-solucao/encontrado/logo.png" alt="Logo da petSOS">
+                <h1>PetSOS</h1>
+            </div>
+        </a>
+    </header>
+    <main>
+        <div id="cadastrar-encontrado">
+            <a id="voltar" href="../pages-petsos/principal.html">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a> 
+            <h2>Cadastrar Animal Encontrado</h2>
+        </div>
+        <div id="mensagem-cadastro-encontrado">
+            <div id="msgError-encontrado"><strong id="msgErro-encontrado"></strong></div>
+            <div id="msgSuccess-encontrado"><strong id="msgSuce-encontrado"></strong></div>
+        </div>
+        <div id="formulario-encontrado">
+            <form method="post" enctype="multipart/form-data" id="frmCadastro-encontrado">
+                <fieldset id="preencher-encontrado">
+                    <div id="campos-encontrado">
+                        <input type="text" name="descricao" id="idDescricao-encontrado" maxlength="300" required>
+                        <label id="labelDescricao-encontrado" for="idDescricao-encontrado">Descrição</label>
+                    </div>
+                    <div id="campos-encontrado">
+                        <input type="date" name="data-desaparecimento-encontrado" id="idData-encontrado" required>
+                        <label id="labelData-encontrado" for="idData-encontrado">Data do desaparecimento</label>
+                    </div>
+                    <div id="campos-animal">
+                        <input type="text" name="nome" id="idNome-encontrado" maxlength="100" required>
+                        <label id="labelNome-encontrado" for="idNome-encontrado">Nome</label>
+                    </div>
+                    <div id="foto-encontrado">
+                            <label for="idFoto-encontrado" id="btnfoto-encontrado">
+                                <img id="previewFoto-encontrado" src="" alt="Foto do animal Encontrado">
+                                <i id="imgbnt-encontrado" class="fa-solid fa-camera"></i>
+                               <span id="adcFoto-encontrado">Adicionar Foto</span>
+                            </label>                        
+                            <input type="file" id="idFoto-encontrado" name="foto-encontrado" accept="image/*" required hidden>                            
+                        </div>               
+                </div>
+                </fieldset>
+                <fieldset id="botao-encontrado">
+                    <button id="btnCadastro-encontrado" type="submit">Cadastrar</button>
+                </fieldset>
+            </form>
+            <p id="mensagem"></p>
+        </div>
+    </main>
+    <footer>
+        <i class="fa-solid fa-chevron-up"></i>
+        <a href="#links-navegacao">Voltar ao topo da página</a>
+        <p>&copy; Minha Página - Todos os Direitos Reservados</p>
+    </footer>
+</body>
+</html>

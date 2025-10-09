@@ -1,0 +1,14 @@
+@layer routes{
+    .pageFAQ{
+        @apply my-10 p-5 lg:mt-50 xl:mt-50 2xl:mt-60 flex flex-col items-center ;
+        & .duvidas{
+            @apply p-5 my-10 bg-[var(--color-faq)] rounded-md shadow-lg lg:w-[50vw] xl:w-[40vw] 2xl:w-[30vw];
+        }
+        h1{
+            @apply font-bold text-center text-[1.2rem]
+        }
+        h2{
+            @apply font-bold m-2;
+        }
+    }
+}

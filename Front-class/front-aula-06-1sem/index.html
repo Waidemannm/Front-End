@@ -1,0 +1,53 @@
+<!-- É um comentário -->
+<!DOCTYPE html>
+<!--É um DTD = Document Type Defintion -->
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Primeiro Site</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <h1>Minha página</h1>
+        <nav>
+            <!-- ul = unordered list
+            Diretamente dentro da ul podemos adicionar apenas
+            o elemento <li></li> 
+                li = List Item
+            -->
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Ajuda</li>
+                <li>
+                    <ul>
+                        <li>Mais acessadas</li>
+                        <li>Mapa</li>
+                        <li>Veja Mais</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Seção-1</h2>
+            <p>Este é um exemplo de site simples usando HTML, CSS e JavaScript.</p>
+            <button onclick="mostrarMensagem()" >Clique Aqui</button>
+        </section>
+        <section>
+            <h2>Seção-2</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, aspernatur excepturi! Eveniet necessitatibus perferendis ullam distinctio omnis quae, nam, earum eos accusamus voluptas aliquam repudiandae repellendus pariatur sunt ratione reprehenderit!
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>Minha página</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

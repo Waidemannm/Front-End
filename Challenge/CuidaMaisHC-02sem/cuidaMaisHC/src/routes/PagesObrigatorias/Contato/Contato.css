@@ -1,0 +1,22 @@
+@layer routes {
+    .pageContato{
+        @apply flex flex-col text-center items-center lg:mt-45 xl:mt-50 2xl:mt-60;
+        & h1{
+            @apply text-[var(--btn-color-menu)] font-bold text-[1.2rem] mt-10 flex flex-wrap
+            items-center gap-3;
+        }
+        & div{
+            @apply flex flex-col items-center p-5;
+            & h2{
+                @apply
+                    text-[1rem] font-bold;
+            }
+            & p{
+                @apply text-[var(--color-font-black)] text-[1rem] m-3 lg:text-[0.9rem];
+            }
+        }
+    }
+    .imgContato{
+        @apply w-[var(--img-contato)] rounded-sm shadow-2xl m-4 lg:w-[35vw] xl:w-[40vw] 2xl:w-[45vw]; 
+    }
+}

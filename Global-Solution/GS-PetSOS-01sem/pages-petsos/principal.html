@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetSOS</title>
+    <link rel="stylesheet" href="../css/css-petsos/style.css">
+    <link rel="shortcut icon" href="../assets/img/img-obrigatorias/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "35f8f6d2-1237-4f88-ab90-ddd078f31d15", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "fb229c84-9a88-45b3-97e0-2f0cc6b6f50c", // The ID of your service instance.
+            onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+            const t=document.createElement('script');
+            t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
+     <script src="../js/petSOS/principal.js" defer></script>
+     
+</head>
+
+<body>
+     <header>
+        <a href="../pages-petsos/principal.html">
+            <div class="container">
+                <img src="../assets/img/img-solucao/principal/logo.png" alt="Logo da petSOS">
+                <h1>PetSOS</h1>
+            </div>
+        </a>
+    </header>
+    <main>
+        <div id="conteudo-principal">
+            <div id="animais-principal">
+                <h2>Encontre seu Pet</h2>
+                <div>
+                    <img src="../assets/img/img-solucao/principal/dog.png" alt="Imagem de um cachorro">
+                    <img src="../assets/img/img-solucao/principal/bird.png" alt="Imagem de uma arara">
+                    <img src="../assets/img/img-solucao/principal/cat.png" alt="Imagem de um gato">
+                </div>
+            </div>
+            <div id="botoes">
+                <section id="perdido">
+                    <a href="../pages-petsos/cadastro-perdido.html">
+                        <img src="../assets/img/img-solucao/principal/pata.png" alt="">
+                        <p>Cadastrar animal perdido</p>
+                    </a>
+                </section>
+                <section id="encontrado">
+                    <a href="../pages-petsos/cadastro-encontrado.html">
+                        <img src="../assets/img/img-solucao/principal/pata.png" alt="">     
+                        <p>Cadastrar animal encontrado</p>
+                    </a>
+                </section>
+                <section id="cadastro">
+                    <a id="criar-cadastro" href="../pages-petsos/cadastro-usuario.html">
+                        <img src="../assets/img/img-solucao/principal/user.png" alt="">
+                        <p>Criar cadastro</p>
+                    </a>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <i class="fa-solid fa-chevron-up"></i>
+        <a href="#links-navegacao">Voltar ao topo da página</a>
+        <p>&copy; Minha Página - Todos os Direitos Reservados</p>
+    </footer>
+</body>
+</html>

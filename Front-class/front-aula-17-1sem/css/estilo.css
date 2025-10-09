@@ -1,0 +1,112 @@
+@import url("./estilo-header.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --cor-primaria: rgb(139, 0, 76);
+    --font-base:'Courier New', serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at 50% 50% , var(--cor-primaria),#04c2e4 , #f5f2f4);
+}
+
+main{
+    width: 90vw;
+    margin: 1% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#sobre{
+    background-color: var(--cor-primaria);
+    background: radial-gradient(circle at 50% 50% , #bfc6e3,#04c2e4 , #f5f2f4);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#sobre h2{
+    text-align: center;
+    margin: 2% 0%;
+}
+
+#sobre img{
+    max-width: 25vw;
+    margin-left: 5px;
+    float: right;
+    display: block;
+    border-radius: 10px;
+}
+
+#sobre p{
+    text-align: justify;
+    margin-bottom: 3%;
+}
+
+#sobre a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    
+    background-color: var(--cor-primaria);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    
+    width: 80px;
+    height: 20px;
+}
+
+#como-chegar{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+
+    background-color: #2124e6;
+    background: radial-gradient(circle at 50% 50% , #b9bece,#04c2e4 , #f5f2f4);
+    border-radius: 5px;
+
+    margin: 5% 0;
+    padding: 10px;
+}
+
+#como-chegar iframe{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+/*
+    Crie 2 break-points: A partir de.
+        1 - 768px para o menu ficar em linha e ajustado ao layout alinhado com as seções.
+        2 - 1024px para o menu ficar em linha e ajustado ao layout alinhado com as seções.
+    
+    Obs: Vai necessitar alteração de estrutura nos botões, ou seja, altura e largura e talvez tamanho da fonte.
+*/
+
+
+@media (min-width: 768px){
+    header nav ul{
+        flex-direction: row;
+    }
+
+    header nav ul li a{
+        width: 170px;
+    }
+}

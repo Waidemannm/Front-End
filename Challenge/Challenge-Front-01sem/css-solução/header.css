@@ -1,0 +1,1 @@
+header{display:flex;flex-direction:row;justify-content:space-between;align-items:center;margin:3%}#logoHC{max-width:40vw}header div nav ul{display:flex;flex-direction:row;gap:1rem}header div nav ul a{font-size:2.5rem;color:var(--cor-font)}
